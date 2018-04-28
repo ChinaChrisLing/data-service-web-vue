@@ -12,7 +12,7 @@
     "build": "node build/build.js"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css,less,vue}": [
+    "src/**/*.js": [
       "prettier --single-quote --write",
       "git add"
     ]
@@ -23,6 +23,7 @@
     "open": "^0.0.5",
     "open-browser-webpack-plugin": "^0.0.5",
     "prettier": "^1.12.1",
+    "prettier-eslint": "^8.8.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
