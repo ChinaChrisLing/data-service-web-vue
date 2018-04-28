@@ -12,7 +12,7 @@
     "build": "node build/build.js"
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "src/**/**.{js,css,vue}": [
       "prettier --single-quote --write",
       "git add"
     ]
